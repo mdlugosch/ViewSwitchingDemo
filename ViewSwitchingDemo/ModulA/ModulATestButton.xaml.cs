@@ -28,5 +28,6 @@ namespace ModulA
             InitializeComponent();
             this.DataContext = new ModulAViewModel();
         }
+
     }
 }

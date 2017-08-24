@@ -103,12 +103,15 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="MVVM\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\ModuleA.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Images\ModuleB.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="MVVM\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

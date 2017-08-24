@@ -6,9 +6,8 @@
              xmlns:local="clr-namespace:ModulB"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300">
-    <Button x:Name="TaskButton" Command="{Binding Open}" Width="59" Height="30"
+    <Button x:Name="TaskButton"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" Command="{Binding Open}" Width="90" Height="90"
      Foreground="Black" Margin="5,5">
-        <!-- <Image Source="/Images/ModuleB.png" Width="30" Height="25" /> -->
-        <Label Content="ModulB"/>
+        <Image Source="/Images/ModuleB.png" Stretch="UniformToFill" />
     </Button>
 </UserControl>
