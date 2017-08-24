@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewSwitchingDemo", "ViewSwitchingDemo\ViewSwitchingDemo.csproj", "{E0B1471A-7465-481A-8D48-EE489B67820F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulA", "ModulA\ModulA.csproj", "{24C93249-DEB3-4080-9072-84E50A13C6A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulB", "ModulB\ModulB.csproj", "{10884908-7A31-48BC-B05A-B2F009E8734A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0B1471A-7465-481A-8D48-EE489B67820F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B1471A-7465-481A-8D48-EE489B67820F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B1471A-7465-481A-8D48-EE489B67820F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B1471A-7465-481A-8D48-EE489B67820F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24C93249-DEB3-4080-9072-84E50A13C6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C93249-DEB3-4080-9072-84E50A13C6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C93249-DEB3-4080-9072-84E50A13C6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C93249-DEB3-4080-9072-84E50A13C6A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10884908-7A31-48BC-B05A-B2F009E8734A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10884908-7A31-48BC-B05A-B2F009E8734A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10884908-7A31-48BC-B05A-B2F009E8734A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10884908-7A31-48BC-B05A-B2F009E8734A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+﻿<Window x:Class="ViewSwitchingDemo.ShellWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:cal="http://www.codeplex.com/CompositeWPF"
+        xmlns:local="clr-namespace:ViewSwitchingDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+
+        <Border BorderBrush="Black" BorderThickness="3" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" >
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" FontSize="20" VerticalAlignment="Center" Content="View Switching Demonstation"/>
+        </Border>
+        <Border BorderBrush="Black" BorderThickness="3" Grid.Row="1" Grid.Column="0" Grid.RowSpan="2">
+            <StackPanel>
+                <TextBlock Margin="0 5 0 10" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center" Text="SideMenu-Region" />
+                <ItemsControl HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0" x:Name="Sidemenu" cal:RegionManager.RegionName="Sidemenu" />
+            </StackPanel>
+        </Border>
+
+        <Border BorderBrush="Black" BorderThickness="3" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2" />
+        <TextBlock FontSize="20" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Workspace-Region" />
+        <ContentControl HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" x:Name="Workspace" cal:RegionManager.RegionName="Workspace" />
+    </Grid>
+</Window>
